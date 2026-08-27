@@ -1,2 +1,4 @@
 # Undergraduate-Works
-A repository of undergraduate projects from 2023-2028
+This is a collection of major projects from both computer science and applied statistics courses.
+
+NOTE: Coding assignments may not run as expected. They are meant to serve as evidence of coding.
