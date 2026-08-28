@@ -1,0 +1,35 @@
+RandomVSRandom Report
+
+1) What is your conclusion, does the first or
+second player have some advantage, at least for a random strategy?
+
+In a situation such two players randomly playing the board, the second player tends to have a greater advantage since
+the second player can benefit from the increased number of possible moves on the board after each turn that the first
+player makes and allows greater flexibility to respond to moves that black makes.
+
+2) Watch https://www.youtube.com/watch?v=Iq9DzN6mvYA
+
+3) Briefly write your thoughts on the above video below:
+The video covers a great lecture on how to better approach statistics for amateur statistics and programmers whom may
+constantly work in the subject for their projects while not being an expert in the field. Jake Vanderplas demostrates
+how statistics concepts can easily be solved using the skills of a programmer through certain coding practices and
+leveraging techniques such as direct simulation, bootstrapping, etc. to solve statistical problems.
+
+4) H0 is the reference to the assumption that there exists no difference in the probability of events in the data.
+
+5) Ha is the opposite of the null hypothesis where there does exist a difference in the probability of events in the data.
+That is, certain events may have advantages over other events and will have a higher chance of occurring.
+
+6) Choose one of the following and delete the other:
+   My experimental results do not support H0, so they support Ha
+
+7) As in the video, use either math or code (add a Java Class) to argue for or against H0
+
+One option that the speaker in the video suggest using was direct simulation. Therefore, by using the java class
+OthelloControllerRandomVSRandom.java and simulating 10,000 games, it was discovered that player 2 had a consistent 5%
+higher chance of winning a game of Othello over player 1 when both players randomly placed their tokens on the board.
+Since the individual probability of the two players winning is not approximately equal, then the null hypothesis cannot
+hold in this situation. Thus, only the alternative hypothesis is applicable.
+
+References: 
+https://www.thoughtco.com/null-hypothesis-vs-alternative-hypothesis-3126413
